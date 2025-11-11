@@ -68,3 +68,5 @@
 
 # Visual Studio Code
 .vscode/
+
+.dart_tool
