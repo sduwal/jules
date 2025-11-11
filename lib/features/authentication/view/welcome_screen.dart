@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:splitr/features/authentication/view/login_screen.dart';
+import 'package:splitr/features/authentication/view/signup_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -44,7 +46,14 @@ class WelcomeScreen extends StatelessWidget {
               Column(
                 children: [
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const SignUpScreen(),
+                        ),
+                      );
+                    },
                     style: ElevatedButton.styleFrom(
                       minimumSize: const Size(double.infinity, 56),
                       shape: RoundedRectangleBorder(
@@ -55,7 +64,14 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const LoginScreen(),
+                        ),
+                      );
+                    },
                     child: const Text('Log In'),
                   ),
                 ],
