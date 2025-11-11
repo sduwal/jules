@@ -1,0 +1,25 @@
+{
+  "note": "This is a placeholder file. Please replace it with your own google-services.json file from your Firebase project.",
+  "project_info": {
+    "project_number": "123456789012",
+    "firebase_url": "https://your-project-id.firebaseio.com",
+    "project_id": "your-project-id",
+    "storage_bucket": "your-project-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123456789012:android:abcdef123456",
+        "android_client_info": {
+          "package_name": "com.example.splitr"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "your_api_key"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}
