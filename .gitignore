@@ -70,3 +70,5 @@
 .vscode/
 
 .dart_tool
+android/app/google-services.json
+*google-services.json
